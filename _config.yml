@@ -110,10 +110,10 @@ bing_site_verification:  # out your bing-site-verification ID (Bing Webmaster)
 # Blog
 # -----------------------------------------------------------------------------
 
-blog_name: al-folio # blog_name will be displayed in your blog page
-blog_nav_title: blog # your blog must have a title for it to be displayed in the nav bar
-blog_description: a simple whitespace theme for academics
-permalink: /blog/:year/:title/
+# blog_name: al-folio # blog_name will be displayed in your blog page
+# blog_nav_title: blog # your blog must have a title for it to be displayed in the nav bar
+# blog_description: a simple whitespace theme for academics
+# permalink: /blog/:year/:title/
 
 # Pagination
 pagination:
@@ -217,10 +217,10 @@ jekyll-archives:
     year: archive-year
     tag: archive-tag
     category: archive-category
-  permalinks:
-    year: '/blog/:year/'
-    tag: '/blog/tag/:name/'
-    category: '/blog/category/:name/'
+  # permalinks:
+  #   year: '/blog/:year/'
+  #   tag: '/blog/tag/:name/'
+  #   category: '/blog/category/:name/'
 
 display_tags: ['formatting', 'images', 'links', 'math', 'code'] # this tags will be dispalyed on the front page of your blog
 
@@ -230,8 +230,8 @@ display_tags: ['formatting', 'images', 'links', 'math', 'code'] # this tags will
 
 scholar:
 
-  last_name: [Einstein]
-  first_name: [Albert, A.]
+  last_name: [Kumar]
+  first_name: [Manoj]
 
   style: apa
   locale: en
